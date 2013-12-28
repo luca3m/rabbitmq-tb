@@ -1,0 +1,30 @@
+{
+  "license": "Apache License, Version 2.0",
+  "types": [
+
+  ],
+  "author": "ghoneycutt",
+  "checksums": {
+    "tests/init.pp": "669ed02ca7363697bf7491d75e9ceac3",
+    "Gemfile": "04b3bb5a4dc44a878126c09c29d5de32",
+    "README.md": "409911c21322853063ba3e9e75aed2bb",
+    "LICENSE": "567e6cc3941d464d60c74d1f4abd5f46",
+    "Modulefile": "9211fed6662c5ebd2eed3b39b930110d",
+    "Rakefile": "8ff6a0f7db638421d1742c5d365d0266",
+    "manifests/init.pp": "87d2f1545580a7e21bb115934f18a4aa",
+    "spec/classes/init_spec.rb": "134c6b3a86f8a5e52bac82d9ab38c2fe",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0"
+  },
+  "project_page": "https://github.com/ghoneycutt/puppet-module-hosts",
+  "dependencies": [
+    {
+      "version_requirement": "3.2.x",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "name": "ghoneycutt-hosts",
+  "version": "2.0.0",
+  "summary": "Manages host entries",
+  "source": "git://github.com/ghoneycutt/puppet-module-hosts.git",
+  "description": "Can ensure entries for localhost, localhost6, and $::fqdn,\nincluding aliases and optionally purge unmanaged entries."
+}
