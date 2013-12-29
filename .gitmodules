@@ -6,4 +6,4 @@
 	url = https://github.com/puppetlabs/puppetlabs-rabbitmq
 [submodule "modules/hosts"]
 	path = modules/hosts
-	url = https://github.com/ghoneycutt/puppet-hosts
+	url = https://github.com/ghoneycutt/puppet-module-hosts
