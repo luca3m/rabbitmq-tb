@@ -19,6 +19,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     rabbit.vm.box = "precise32"
     rabbit.vm.box_url = "http://files.vagrantup.com/precise32.box"
     rabbit.vm.network :private_network, ip: "192.168.57.2"
+    rabbit.vm.hostname = "rabbitmq-a"
   end
   
   config.vm.define "rabbitmq-b" do |rabbit|
@@ -28,6 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     rabbit.vm.box = "precise32"
     rabbit.vm.box_url = "http://files.vagrantup.com/precise32.box"
     rabbit.vm.network :private_network, ip: "192.168.57.3"
+    rabbit.vm.hostname = "rabbitmq-b"
   end
 
   # The url from where the 'config.vm.box' box will be fetched if it
